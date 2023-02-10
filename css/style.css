@@ -15,6 +15,10 @@ a{
     color: white;
 }
 
+ul{
+    list-style-type: none;
+}
+
 
 .flex{
     display: flex;
@@ -44,7 +48,7 @@ body{
 }
 
 header{
-    height: 10vh;
+    height:40px;
     position: relative;
 }
 
@@ -69,7 +73,7 @@ header{
     min-width: 150px;
     border: 1px solid white;
     position: relative;
-    height: calc(((100vh - 20vh -1rem) / 5) - 15px);
+    height: calc(((100vh - 100px -1rem) / 5) - 15px);
 }
 
 .card img{
@@ -87,8 +91,39 @@ header{
 }
 
 footer{
-    height: 10vh;
+    height: 60px;
     margin-top: 1rem;
     background-color: var(--footer-color);
+    padding: .5rem 1rem;
+}
 
+li{
+    margin-right: 1rem;
+}
+
+.icons{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fa-solid.fa-microphone{
+    font-size: 1.6rem;
+    padding: 0 .2rem;
+}
+
+.fa-solid.fa-caret-down{
+    font-size: .8rem;
+}
+
+footer li span{
+    display: block;
+    font-size: .8rem;
+    font-weight: 300;
+    padding-top: .2rem;
+}
+
+.fa-solid.fa-camera{
+    font-size: 1.6rem;
 }
